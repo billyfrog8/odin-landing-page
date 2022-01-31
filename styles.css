@@ -1,0 +1,165 @@
+.mainbody {
+    background-color: burlywood;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav {
+    display: flex;
+    background-color:lightblue;
+    align-items: center;
+    justify-content: space-around;
+    flex: 1;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 200px;
+    justify-content: space-evenly;
+    color: grey;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.text {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+
+ul :hover {
+    background-color:lightcyan;
+    color: blue;
+}
+.logo {
+    display: flex;
+    align-self: center;
+    border: 3px solid lightcyan;
+}
+.container1 {
+    display: flex;
+    background-color: lightblue;
+    height: 300px;
+    align-items: center;
+    justify-content: space-around;
+    flex: 1;
+}
+.box1 {
+    display: flex;
+    height: 200px;
+    width: 357.14px;
+    padding: 10px;
+    flex-direction: column;
+    flex: auto;
+    align-items: center;
+}
+.info {
+    display: flex;
+    font-size: 44px;
+    font-weight: 500;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container2 {
+    display: flex;
+}
+.title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+.subtitle {
+    font-size: 20px;
+    color: grey;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 500;
+}
+.button {
+    width: fit-content;
+    background-color:lightcyan;
+    font-size: 16px;
+    border-radius: 10px;
+    outline: none;
+    color: blue;
+    font-family: monospace;
+}
+.boat {
+    border: 3px solid grey;
+    border-radius: 20px;
+}
+.container3 {
+    display: flex;
+    background-color: rgb(128, 173, 197);
+    justify-content: center;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+}
+.stocks {
+    display: flex;
+    width: 800px;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 19px;
+}
+.chart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    width: 170px;
+    height: 150px;
+}
+.stockchart {
+    display: flex;
+    height: 150px;
+    border: 1px solid grey;
+    border-radius: 25px;
+    flex: 1;
+}
+.sometext {
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+    font-size: 13px;
+}
+.container4 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    background-color: rgb(217, 231, 235);
+}
+.quotebox {
+    display: flex;
+    background-color: rgba(158, 183, 199, 0.1);
+    align-self: center;
+    width: fit-content;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: center;
+}
+.warren {
+    display: flex;
+    height: 320px;
+    width: auto;
+    border: 2px solid lightblue;
+    border-radius: 40px;
+    justify-content: center;
+    text-align: center;
+}
+.quotetext {
+    position: absolute;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(71, 69, 69, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    padding: 10px; /* Some padding */
+    align-self:flex-end;
+    margin-bottom: 2px;
+    font-size: 28px;
+    font-family: monospace;
+}
