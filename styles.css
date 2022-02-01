@@ -1,15 +1,18 @@
 .mainbody {
+    display: flex;
     background-color: burlywood;
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
+    flex-direction: column;
+    flex-basis: 100%;
 }
 .nav {
     display: flex;
     background-color:lightblue;
     align-items: center;
     justify-content: space-around;
-    flex: 1;
+    flex-basis: 100%;
 }
 ul {
     display: flex;
@@ -39,10 +42,10 @@ ul :hover {
 .container1 {
     display: flex;
     background-color: lightblue;
-    height: 300px;
+    min-height: 300px;
     align-items: center;
     justify-content: space-around;
-    flex: 1;
+    flex-basis: 100%;
 }
 .box1 {
     display: flex;
@@ -50,8 +53,8 @@ ul :hover {
     width: 357.14px;
     padding: 10px;
     flex-direction: column;
-    flex: auto;
     align-items: center;
+    
 }
 .info {
     display: flex;
@@ -62,6 +65,9 @@ ul :hover {
 }
 .container2 {
     display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .title {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -90,18 +96,17 @@ ul :hover {
     display: flex;
     background-color: rgb(128, 173, 197);
     justify-content: center;
-    height: 300px;
-    margin-left: auto;
-    margin-right: auto;
+    min-height: 300px;
     flex-direction: column;
 }
 .stocks {
     display: flex;
-    width: 800px;
+    max-width: 800px;
     justify-content: space-around;
     margin-left: auto;
     margin-right: auto;
     padding: 19px;
+    flex-wrap: wrap;
 }
 .chart {
     display: flex;
@@ -128,16 +133,13 @@ ul :hover {
     display: flex;
     align-content: center;
     justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    height: 400px;
+    max-height: 400px;
     background-color: rgb(217, 231, 235);
 }
 .quotebox {
     display: flex;
     background-color: rgba(158, 183, 199, 0.1);
     align-self: center;
-    width: fit-content;
     padding: 20px;
     padding-left: 50px;
     padding-right: 50px;
@@ -145,8 +147,8 @@ ul :hover {
 }
 .warren {
     display: flex;
-    height: 320px;
-    width: auto;
+    width: 100%;
+    max-height: 300px;
     border: 2px solid lightblue;
     border-radius: 40px;
     justify-content: center;
@@ -162,4 +164,10 @@ ul :hover {
     margin-bottom: 2px;
     font-size: 28px;
     font-family: monospace;
+}
+.footer {
+    padding: 10px;
+    font-family: monospace;
+    font-size: 12px;
+
 }
